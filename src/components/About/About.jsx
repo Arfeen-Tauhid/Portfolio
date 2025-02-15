@@ -1,6 +1,10 @@
 import React from "react";
 
 import styles from "./About.module.css";
+import m1 from "../../assets/about/aboutImage.png"
+import m2 from "../../assets/about/cursorIcon.png"
+import m3 from "../../assets/about/serverIcon.png"
+import m4 from "../../assets/about/cursorIcon.png"
 
 
 export const About = () => {
@@ -9,13 +13,13 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src="./src/assets/about/aboutImage.png"
+          src={m1}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src="./src/assets/about/cursorIcon.png" alt="Cursor icon" />
+            <img src={m2} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               {/* <p>
@@ -25,7 +29,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src="./src/assets/about/serverIcon.png" alt="Server icon" />
+            <img src={m3} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               {/* <p>
@@ -35,7 +39,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src="./src/assets/about/cursorIcon.png" alt="UI icon" />
+            <img src={m4} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>Java</h3>
               {/* <p>

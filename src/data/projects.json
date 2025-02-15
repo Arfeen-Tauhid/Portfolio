@@ -1,7 +1,7 @@
 [
     {
       "title": "The Planet",
-      "imageSrc": "./src/assets/projects/theplanet.png",
+      "imageSrc": "../../assets/projects/theplanet.png",
       "description": "This project is made to learn the latest three.js features by building a website. I use the scroll function on this website. When you scroll your mouse wheel (in any direction), the planets move in a clockwise direction.",
       "skills": ["Three.js"],
       "demo": "https://theplanetthreejs.vercel.app",
@@ -9,7 +9,7 @@
     },
     {
       "title": "Project B",
-      "imageSrc": "./src/assets/projects/zajno.png",
+      "imageSrc": "../../assets/projects/zajno.png",
       "description": "This is a project made to learn the latest three.js features by building an Website Clone Zajno.",
       "skills": ["Three.js"],
       "demo": "https://zajno-two.vercel.app",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Stop-Watch",
-      "imageSrc": "./src/assets/projects/Stop-Watch.png",
+      "imageSrc": "../../assets/projects/Stop-Watch.png",
       "description": "This is a project made to learn how to make functions in javascript and how function work.",
       "skills": ["HTML", "CSS", "Javascript"],
       "demo": "https://stop-watch-git-main-arfeen-tauhids-projects.vercel.app",

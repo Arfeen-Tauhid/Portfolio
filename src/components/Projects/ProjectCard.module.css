@@ -1,5 +1,14 @@
 @import "../../vars.css";
 
+.coo{
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   display: flex;
   flex-direction: column;

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link , NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
-
+import icon1 from "../../assets/nav/closeIcon.png"
+import icon2 from "../../assets/nav/menuIcon.png"
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -15,8 +16,8 @@ export const Navbar = () => {
           className={styles.menuBtn}
           src={
             menuOpen
-              ? "./assets/nav/closeIcon.png"
-              : "./assets/nav/menuIcon.png"
+              ? icon1
+              : icon2
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
