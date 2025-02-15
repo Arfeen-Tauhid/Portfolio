@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar.jsx"
 import Hero from "./components/Hero/Hero.jsx"
 import About from "./components/About/About.jsx"
 import Contact from "./components/Contact/Contact.jsx"
-import Experience from "./components/Education/Education.jsx"
+import Experience, { Education } from "./components/Education/Education.jsx"
 import Projects from "./components/Projects/Projects.jsx"
 import Codolio from "./components/Codolio/Codolio.jsx"
 import Resume from "./components/Resume/Resume.jsx"
@@ -22,8 +22,8 @@ const App = () => {
     element:<><Navbar /><About/> </>
   },
   {
-    path:"/Experience",
-    element:<><Navbar /><Experience/> </>
+    path:"/Education",
+    element:<><Navbar /><Education/> </>
   },
   {
     path:"/projects",
