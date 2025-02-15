@@ -1,0 +1,45 @@
+.con{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    margin-top: -70px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Resume{
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 28%;
+    height: 93%;
+  }
+  
+  .downloadBtn{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: -10px;
+    background-color: black;
+  }
+  
+  .downloadBtn a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+  }

@@ -1,0 +1,28 @@
+[
+    {
+      "role": "B-Tech ( Computer Science )",
+      "organisation": "IES University , Bhopal",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": ["CURRENT CGPA : 8.04"],
+      "imageSrc": "./src/assets/history/ies.png"
+    },
+    {
+      "role": "12th",
+      "organisation": "Sadhana Devi Vidyapith",
+      "startDate": "June, 2019",
+      "endDate": "March, 2021",
+      "experiences": ["Percentage : 80.8"],
+      "imageSrc": "./src/assets/history/sdv.png"
+    },
+    {
+      "role": "10th",
+      "organisation": "Sadhana Devi Vidyapith",
+      "startDate": "March, 2018",
+      "endDate": "May, 2019",
+      "experiences": [
+        "Percentage : 70.8"
+      ],
+      "imageSrc": "./src/assets/history/sdv.png"
+    }
+  ]
