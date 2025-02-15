@@ -39,7 +39,7 @@ const App = () => {
   },
   {
     path:"/resume",
-    element:<><Navbar /><Resume/> </>
+    element:<><Navbar/><Resume/> </>
   },
   {
     path:"/blog",
