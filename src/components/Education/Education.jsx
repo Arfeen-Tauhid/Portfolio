@@ -13,7 +13,7 @@ import imageS from "../../assets/history/ies.png"
 import imageSr from "../../assets/history/sdv.png" 
 
 
-export const Experience = () => {
+export const Education = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Education , Coding Language And Frameworks</h2>
@@ -116,4 +116,4 @@ export const Experience = () => {
     </section>
   );
 };
-export default Experience
+export default Education
