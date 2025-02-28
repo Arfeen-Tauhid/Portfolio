@@ -9,9 +9,8 @@ const Resume = () => {
     <section>
       <div className={styles.con}>
       <div className={styles.container}>
-      <object data={pdf} type="application/pdf" width="30%" height="570px"  margin-top="50px">
-      <a href={pdf}>Download the PDF</a>
-      </object>
+      <iframe data={pdf} type="pdf">
+      </iframe>
       </div>
       <div className={styles.downloadBtn}>
         <a href={pdf} target="_blank" rel="noopener noreferrer">Download Resume</a>
