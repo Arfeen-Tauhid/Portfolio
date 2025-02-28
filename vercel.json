@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/resume",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/about",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/experience",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/projects",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/codolio",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/contact",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/blog",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
