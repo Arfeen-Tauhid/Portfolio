@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Resume.module.css'
-import pdf from "../../assets/Resume/Resume.png"
+import pdf from "../../assets/Resume/Resume.pdf"
 
 const Resume = () => {
   // const resumeUrl = "#toolbar=0&navpanes=0&scrollbar=0&height=480px&width=350px&margin-top=50px";
@@ -9,10 +9,12 @@ const Resume = () => {
     <section>
       <div className={styles.con}>
       <div className={styles.container}>
-        <iframe src={`${pdf}?#toolbar=0&navpanes=0&scrollbar=0&height=30%&width=30%`} frameborder='0' className={styles.Resume} style={{ border: "none"}} title="Resume Preview" ></iframe>
+      <object data={pdf} type="application/pdf" width="30%" height="570px"  margin-top="50px">
+      <a href={pdf}>Download the PDF</a>
+      </object>
       </div>
       <div className={styles.downloadBtn}>
-        <a href={pdf} target="_blank" rel="noopener noreferrer" >Download Resume</a>
+        <a href={pdf} target="_blank" rel="noopener noreferrer">Download Resume</a>
       </div>
       </div>
       </section>

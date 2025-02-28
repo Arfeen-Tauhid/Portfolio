@@ -3,7 +3,9 @@ import styles from './Blog.module.css'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <section>
+    <p className={styles.con}>Comming Soon.....</p>
+    </section>
   )
 }
 

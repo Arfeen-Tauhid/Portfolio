@@ -1,6 +1,12 @@
 import React,{useRef} from "react";
 import emailjs from '@emailjs/browser';
 import styles from "./Contact.module.css";
+import codlio from "../../assets/contact/codolio.png"
+import email from "../../assets/contact/emailIcon.png"
+import github from "../../assets/contact/githubIcon.png"
+import Leetcode from "../../assets/contact/LeetCode.png"
+import linkedin from "../../assets/contact/linkedinIcon.png"
+import CodeChef from "../../assets/contact/CodeChef.png"
 
 export const Contact = () => {
   const form = useRef();
@@ -32,35 +38,42 @@ export const Contact = () => {
       <div className={styles.first}>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src="./assets/contact/emailIcon.png" alt="Email icon" />
+          <img src={email} alt="Email icon" />
           <a href="mailto:arfeentauhid09@gmail.com">arfeentauhid09@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src="./assets/contact/linkedinIcon.png"
+            src={linkedin}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/arfeen-tauhid">linkedin.com/Arfeen Tauhid</a>
         </li>
         <li className={styles.link}>
-          <img src="./assets/contact/githubIcon.png" alt="Github icon" />
+          <img src={github} alt="Github icon" />
           <a href="https://www.github.com/Arfeen-Tauhid">github.com/ArfeenTauhid</a>
         </li>
       </ul>
       <ul className={styles.links2}>
       <li className={styles.link}>
       <img
-            src="./assets/contact/LeetCode.png"
+            src={Leetcode}
             alt="LinkedIn icon"
           />
-          <a href="https://leetcode.com/u/Arfeen_Tauhid/">LeetCode.com/Arfeen Tauhid</a>
+          <a href="https://leetcode.com/u/arfeen_tauhid">LeetCode.com/Arfeen Tauhid</a>
       </li>
       <li className={styles.link}>
       <img
-            src="./assets/contact/linkedinIcon.png"
+            src={codlio}
             alt="LinkedIn icon"
            height="35px"/>
-          <a href="https://codolio.com/profile/Arfeen">Codolio.com/Arfeen Tauhid</a>
+          <a href="https://codolio.com/profile/arfeen_tauhid">Codolio.com/Arfeen Tauhid</a>
+      </li>
+      <li className={styles.link}>
+      <img
+            src={CodeChef}
+            alt="CodeChef"
+           height="35px"/>
+          <a href="https://www.codechef.com/users/arfeen_tauhid">Codolio.com/Arfeen Tauhid</a>
       </li>
       </ul>
       </div>

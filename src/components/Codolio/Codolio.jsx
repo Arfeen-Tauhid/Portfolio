@@ -4,7 +4,7 @@ import styles from './Codolio.module.css'
 const Codolio = () => {
   return (
     <div className={styles.container}>
-        <iframe className={styles.Codolio} src="https://codolio.com/profile/Arfeen"></iframe>
+        <iframe className={styles.Codolio} src="https://codolio.com/profile/arfeen_tauhid"></iframe>
     </div>
   )
 }
